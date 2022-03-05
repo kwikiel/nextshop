@@ -14,6 +14,9 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         Centered
+        <div className='bg-indigo-500'>
+          This should be blue indigo
+        </div>
       </main>
 
       <footer className={styles.footer}>
